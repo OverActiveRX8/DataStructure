@@ -44,7 +44,7 @@ void pushStack(stack_t S, dataType a)
         perror("Stack is full!");
 }
 
-dataType popStack(stack_t S)           //a problem here!!!!!!!!!!1
+dataType popStack(stack_t S)
 {
     S->cursor--;
     return S->array[S->cursor];
