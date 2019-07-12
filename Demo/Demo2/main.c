@@ -47,7 +47,7 @@ void pushStack(stack_t S, dataType a)
 dataType popStack(stack_t S)           //a problem here!!!!!!!!!!1
 {
     S->cursor--;
-    return S->array[S->cursor+1];
+    return S->array[S->cursor];
 }
 
 int main()
@@ -59,7 +59,12 @@ int main()
     pushStack(S,7);
     pushStack(S,9);
     pushStack(S,11);
-    pushStack(S,1);
+    pushStack(S,15);
+    pushStack(S,14);
+    pushStack(S,13);
+    pushStack(S,12);
+    pushStack(S,11);
+    pushStack(S,10);
     printf("%d \n", popStack(S));
     printf("%d \n", popStack(S));
     printf("%d \n", popStack(S));
