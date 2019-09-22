@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/SeqList.dir/main.c.o CMakeFiles/SeqList.dir/seqList.c.o  -o SeqList 
