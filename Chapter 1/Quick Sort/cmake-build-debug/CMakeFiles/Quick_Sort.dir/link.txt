@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/Quick_Sort.dir/main.c.o CMakeFiles/Quick_Sort.dir/quickSort.c.o  -o Quick_Sort 

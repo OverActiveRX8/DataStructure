@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/main.c
+stdio.h
+-
+quickSort.h
+/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/quickSort.h
+
+/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/quickSort.h
+

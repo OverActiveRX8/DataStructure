@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Quick_Sort"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quick_Sort">
+				<Option output="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/cmake-build-debug/Quick_Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 Quick_Sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quick_Sort/fast">
+				<Option output="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/cmake-build-debug/Quick_Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 Quick_Sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/pjpalanas/DATA/School/Data\ Structure/Chapter\ 1/Quick\ Sort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/main.c">
+			<Option target="Quick_Sort"/>
+		</Unit>
+		<Unit filename="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/quickSort.c">
+			<Option target="Quick_Sort"/>
+		</Unit>
+		<Unit filename="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/quickSort.h">
+			<Option target="Quick_Sort"/>
+		</Unit>
+		<Unit filename="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 1/Quick Sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
