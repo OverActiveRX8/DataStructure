@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList"
+CMAKE_SOURCE_DIR = /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug"
+CMAKE_BINARY_DIR = /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SeqList.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/SeqList.dir/flags.make
 
 CMakeFiles/SeqList.dir/main.c.o: CMakeFiles/SeqList.dir/flags.make
 CMakeFiles/SeqList.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SeqList.dir/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SeqList.dir/main.c.o   -c "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SeqList.dir/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SeqList.dir/main.c.o   -c /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/main.c
 
 CMakeFiles/SeqList.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SeqList.dir/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/main.c" > CMakeFiles/SeqList.dir/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/main.c > CMakeFiles/SeqList.dir/main.c.i
 
 CMakeFiles/SeqList.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SeqList.dir/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/main.c" -o CMakeFiles/SeqList.dir/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/main.c -o CMakeFiles/SeqList.dir/main.c.s
 
 CMakeFiles/SeqList.dir/seqList.c.o: CMakeFiles/SeqList.dir/flags.make
 CMakeFiles/SeqList.dir/seqList.c.o: ../seqList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SeqList.dir/seqList.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SeqList.dir/seqList.c.o   -c "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/seqList.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SeqList.dir/seqList.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SeqList.dir/seqList.c.o   -c /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/seqList.c
 
 CMakeFiles/SeqList.dir/seqList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SeqList.dir/seqList.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/seqList.c" > CMakeFiles/SeqList.dir/seqList.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/seqList.c > CMakeFiles/SeqList.dir/seqList.c.i
 
 CMakeFiles/SeqList.dir/seqList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SeqList.dir/seqList.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/seqList.c" -o CMakeFiles/SeqList.dir/seqList.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/seqList.c -o CMakeFiles/SeqList.dir/seqList.c.s
 
 # Object files for target SeqList
 SeqList_OBJECTS = \
@@ -95,7 +95,7 @@ SeqList: CMakeFiles/SeqList.dir/main.c.o
 SeqList: CMakeFiles/SeqList.dir/seqList.c.o
 SeqList: CMakeFiles/SeqList.dir/build.make
 SeqList: CMakeFiles/SeqList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable SeqList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable SeqList"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SeqList.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/SeqList.dir/clean:
 .PHONY : CMakeFiles/SeqList.dir/clean
 
 CMakeFiles/SeqList.dir/depend:
-	cd "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList" "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList" "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug" "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug" "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug/CMakeFiles/SeqList.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug/CMakeFiles/SeqList.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SeqList.dir/depend
 

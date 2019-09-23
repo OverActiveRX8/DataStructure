@@ -1,4 +1,4 @@
-# Install script for directory: /run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList
+# Install script for directory: /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

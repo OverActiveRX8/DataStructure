@@ -1,4 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" "/run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList"
--- Configuring done
--- Generating done
--- Build files have been written to: /run/media/pjpalanas/DATA/School/Data Structure/Chapter 2/SeqList/cmake-build-debug
