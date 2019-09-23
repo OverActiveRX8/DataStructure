@@ -35,7 +35,7 @@ void listPrint (list_t list, int start, int stop){
         printf("Fault: The list start from 1, pls change the parameter!\n");
     else {
         for (int i = start; i <= stop; i++) {
-            printf("No.%d : %d\n", i, list.listAddress[i - 1]);
+            printf("No.%d: %d\n", i, list.listAddress[i - 1]);
         }
     }
 }
@@ -62,8 +62,8 @@ void listAdd (list_t *list, elementType value){
 void listForceAdd (list_t *list, elementType value)
 {
     if (list->currentLength >= list->listLength){
-            listReshape(list,list->listLength+1);
-            listAdd(list,value);
+        listReshape(list,list->listLength+1);
+        listForceAdd(list,value);
     }
     else{
         list->listAddress[list->currentLength] = value;
@@ -141,7 +141,7 @@ elementType getValue (list_t *list, int location){
 bool isEmpty (list_t *list){
     bool state = true;
     for(int i = 0;i<list->currentLength;i++){
-        if(!list->listAddress[i]){
+        if(list->listAddress[i] != 0){
             state = false;
             break;
         }
@@ -182,14 +182,15 @@ void listSort (list_t *list) {
 
 list_t listUnion (list_t *list_a, list_t *list_b){
     list_t newList = listInit(1);
-    for(int i = 0;i < list_a->currentLength - 1;i++){
+    for(int i = 0;i < list_a->currentLength;i++){
         listForceAdd(&newList,list_a->listAddress[i]);
     }
-    for(int j = 0;j < list_b->currentLength - 1;j++){
+    for(int j = 0;j < list_b->currentLength;j++){
         if(!ifExist(list_a,list_b->listAddress[j])){
             listForceAdd(&newList,list_b->listAddress[j]);
         }
     }
+    return newList;
 }
 
 #endif

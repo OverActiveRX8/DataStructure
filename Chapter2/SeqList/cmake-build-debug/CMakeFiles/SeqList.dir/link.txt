@@ -1,1 +1,1 @@
-/usr/bin/gcc -g   CMakeFiles/SeqList.dir/main.c.o CMakeFiles/SeqList.dir/seqList.c.o  -o SeqList  -L/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/lib 
+/usr/bin/gcc -g   CMakeFiles/SeqList.dir/main.c.o CMakeFiles/SeqList.dir/seqList.c.o CMakeFiles/SeqList.dir/quickSort.c.o  -o SeqList  -L/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/lib 

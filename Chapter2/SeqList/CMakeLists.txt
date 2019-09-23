@@ -7,4 +7,4 @@ include_directories(/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqL
 
 link_directories(/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/lib)
 
-add_executable(SeqList main.c seqList.h seqList.c)
+add_executable(SeqList main.c seqList.h seqList.c quickSort.c quickSort.h)

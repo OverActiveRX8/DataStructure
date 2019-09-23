@@ -81,6 +81,12 @@
 		<Unit filename="/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/main.c">
 			<Option target="SeqList"/>
 		</Unit>
+		<Unit filename="/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/quickSort.c">
+			<Option target="SeqList"/>
+		</Unit>
+		<Unit filename="/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/quickSort.h">
+			<Option target="SeqList"/>
+		</Unit>
 		<Unit filename="/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/SeqList/seqList.c">
 			<Option target="SeqList"/>
 		</Unit>

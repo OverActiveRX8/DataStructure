@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SeqList.dir/main.c.o"
+  "CMakeFiles/SeqList.dir/quickSort.c.o"
   "CMakeFiles/SeqList.dir/seqList.c.o"
   "SeqList"
   "SeqList.pdb"

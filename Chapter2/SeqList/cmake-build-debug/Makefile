@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/main.c.s
 .PHONY : main.c.s
 
+quickSort.o: quickSort.c.o
+
+.PHONY : quickSort.o
+
+# target to build an object file
+quickSort.c.o:
+	$(MAKE) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/quickSort.c.o
+.PHONY : quickSort.c.o
+
+quickSort.i: quickSort.c.i
+
+.PHONY : quickSort.i
+
+# target to preprocess a source file
+quickSort.c.i:
+	$(MAKE) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/quickSort.c.i
+.PHONY : quickSort.c.i
+
+quickSort.s: quickSort.c.s
+
+.PHONY : quickSort.s
+
+# target to generate assembly for a file
+quickSort.c.s:
+	$(MAKE) -f CMakeFiles/SeqList.dir/build.make CMakeFiles/SeqList.dir/quickSort.c.s
+.PHONY : quickSort.c.s
+
 seqList.o: seqList.c.o
 
 .PHONY : seqList.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... quickSort.o"
+	@echo "... quickSort.i"
+	@echo "... quickSort.s"
 	@echo "... seqList.o"
 	@echo "... seqList.i"
 	@echo "... seqList.s"
