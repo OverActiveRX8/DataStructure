@@ -57,22 +57,9 @@ include CMakeFiles/LinkList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinkList.dir/flags.make
 
-CMakeFiles/LinkList.dir/main.c.o: CMakeFiles/LinkList.dir/flags.make
-CMakeFiles/LinkList.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinkList.dir/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LinkList.dir/main.c.o   -c /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/main.c
-
-CMakeFiles/LinkList.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinkList.dir/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/main.c > CMakeFiles/LinkList.dir/main.c.i
-
-CMakeFiles/LinkList.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinkList.dir/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/main.c -o CMakeFiles/LinkList.dir/main.c.s
-
 CMakeFiles/LinkList.dir/linkList.c.o: CMakeFiles/LinkList.dir/flags.make
 CMakeFiles/LinkList.dir/linkList.c.o: ../linkList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LinkList.dir/linkList.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinkList.dir/linkList.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LinkList.dir/linkList.c.o   -c /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/linkList.c
 
 CMakeFiles/LinkList.dir/linkList.c.i: cmake_force
@@ -83,16 +70,29 @@ CMakeFiles/LinkList.dir/linkList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinkList.dir/linkList.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/linkList.c -o CMakeFiles/LinkList.dir/linkList.c.s
 
+CMakeFiles/LinkList.dir/main.c.o: CMakeFiles/LinkList.dir/flags.make
+CMakeFiles/LinkList.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LinkList.dir/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LinkList.dir/main.c.o   -c /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/main.c
+
+CMakeFiles/LinkList.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinkList.dir/main.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/main.c > CMakeFiles/LinkList.dir/main.c.i
+
+CMakeFiles/LinkList.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinkList.dir/main.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/main.c -o CMakeFiles/LinkList.dir/main.c.s
+
 # Object files for target LinkList
 LinkList_OBJECTS = \
-"CMakeFiles/LinkList.dir/main.c.o" \
-"CMakeFiles/LinkList.dir/linkList.c.o"
+"CMakeFiles/LinkList.dir/linkList.c.o" \
+"CMakeFiles/LinkList.dir/main.c.o"
 
 # External object files for target LinkList
 LinkList_EXTERNAL_OBJECTS =
 
-LinkList: CMakeFiles/LinkList.dir/main.c.o
 LinkList: CMakeFiles/LinkList.dir/linkList.c.o
+LinkList: CMakeFiles/LinkList.dir/main.c.o
 LinkList: CMakeFiles/LinkList.dir/build.make
 LinkList: CMakeFiles/LinkList.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable LinkList"

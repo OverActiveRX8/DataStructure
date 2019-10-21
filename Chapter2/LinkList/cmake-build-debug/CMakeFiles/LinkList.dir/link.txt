@@ -1,1 +1,1 @@
-/usr/bin/gcc -g   CMakeFiles/LinkList.dir/main.c.o CMakeFiles/LinkList.dir/linkList.c.o  -o LinkList 
+/usr/bin/gcc -g   CMakeFiles/LinkList.dir/linkList.c.o CMakeFiles/LinkList.dir/main.c.o  -o LinkList 
