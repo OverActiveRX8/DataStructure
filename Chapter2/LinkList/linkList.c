@@ -96,6 +96,7 @@ void deleteList(linkList list){
         free(tempNode);
         tempNode = next;
     }
+    free(list);
     list->nextNode = NULL;
 }
 void insertNode(elementType val, linkList list, node_p position){

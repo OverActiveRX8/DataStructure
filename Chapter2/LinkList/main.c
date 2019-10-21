@@ -7,8 +7,6 @@
 
 int main(void){
     linkList newList = createList();
-    insertNode(100, newList, newList->nextNode);
-    deleteNode(3, newList);
     deleteList(newList);
     return 0;
 }
