@@ -1,0 +1,3 @@
+/run/media/pjpalanas/DATA/School/DataStructure/Chapter3/seqStack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/pjpalanas/DATA/School/DataStructure/Chapter3/seqStack/cmake-build-debug/CMakeFiles/seqStack.dir
+/run/media/pjpalanas/DATA/School/DataStructure/Chapter3/seqStack/cmake-build-debug/CMakeFiles/edit_cache.dir

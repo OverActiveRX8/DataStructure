@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/seqStack.dir/main.c.o CMakeFiles/seqStack.dir/seqStack.c.o  -o seqStack 
