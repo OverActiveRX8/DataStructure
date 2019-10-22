@@ -19,8 +19,8 @@ queue createQueue(int maxSize) {
     if(q == NULL) {
         perror("Out of space!");
     } else {
-        q->size = maxSize;
-        q->array = malloc(sizeof(elementType) * maxSize);
+        q->size = maxSize + 1;
+        q->array = malloc(sizeof(elementType) * q->size);
         q->front = q->rear = 0;
     }
     return q;
