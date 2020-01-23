@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/MinGW/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=C:/Program Files/MinGW/bin/mingw32-gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/MinGW/bin/mingw32-g++.exe" -G "CodeBlocks - MinGW Makefiles" D:\School\DataStructure\Chapter6\CommonTree
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/School/DataStructure/Chapter6/CommonTree/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	cc1.exe: error: unrecognized command line option "-fpch-preprocess"

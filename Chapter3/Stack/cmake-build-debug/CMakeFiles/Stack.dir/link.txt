@@ -1,1 +1,0 @@
-/usr/bin/gcc -g   CMakeFiles/Stack.dir/main.c.o CMakeFiles/Stack.dir/stack.c.o  -o Stack 

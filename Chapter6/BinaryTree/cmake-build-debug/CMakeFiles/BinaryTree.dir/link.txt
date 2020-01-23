@@ -1,0 +1,1 @@
+C:\PROGRA~1\MinGW\bin\MINGW3~1.EXE -g   -Wl,@CMakeFiles\BinaryTree.dir\objects1.rsp  -o BinaryTree.exe -Wl,--out-implib,libBinaryTree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

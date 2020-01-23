@@ -10,5 +10,8 @@ int main() {
     enqueue(5, q);
     enqueue(6, q);
     elementType val = frontAndDequeue(q);
+    val = frontAndDequeue(q);
+    val = frontAndDequeue(q);
+    val = frontAndDequeue(q);
     return 0;
 }

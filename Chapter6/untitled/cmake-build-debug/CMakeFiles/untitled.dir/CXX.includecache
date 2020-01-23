@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/School/DataStructure/Chapter6/untitled/SearchTree.h
+iostream
+-
+
+D:/School/DataStructure/Chapter6/untitled/main.cpp
+SearchTree.h
+D:/School/DataStructure/Chapter6/untitled/SearchTree.h
+
