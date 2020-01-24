@@ -23,8 +23,7 @@ int main()
     test.insert("C8");
     test.insert("C0");
     test.insert("C9");
-    test.printTree();
-    test.postorder();
+    test.inorder();
     test.destoryTree();
     return 0;
 }
