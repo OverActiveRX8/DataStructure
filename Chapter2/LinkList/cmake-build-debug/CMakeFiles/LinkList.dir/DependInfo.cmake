@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/linkList.c" "/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles/LinkList.dir/linkList.c.o"
-  "/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/main.c" "/run/media/pjpalanas/DATA/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles/LinkList.dir/main.c.o"
+  "D:/School/DataStructure/Chapter2/LinkList/linkList.c" "D:/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles/LinkList.dir/linkList.c.obj"
+  "D:/School/DataStructure/Chapter2/LinkList/main.c" "D:/School/DataStructure/Chapter2/LinkList/cmake-build-debug/CMakeFiles/LinkList.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

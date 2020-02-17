@@ -18,7 +18,10 @@ public:
     T key;
     Node *left;
     Node *right;
+    bool ltag {true};
+    bool rtag {true};
     Node(T value, Node *lchild, Node *rchild): key(value),left(lchild),right(rchild) {}
+    Node(Node *lchild, Node *rchild): left(lchild),right(rchild) {}
 };
 
 template <class T> class STree
@@ -26,6 +29,7 @@ template <class T> class STree
 private:
     Node<T> *root;
     int total;
+    bool thread {false};
 
 public:
     //Constructor
@@ -33,6 +37,7 @@ public:
     //User interface
     void preorder();
     void inorder();
+    void inthreading();
     void postorder();
     Node<T>* search(T key);
     Node<T>* searchFather(T key);
@@ -48,6 +53,7 @@ private:
     void preorder(Node<T>* node);
     void inorder(Node<T>* node);
     void postorder(Node<T>* node);
+    void inthreading(Node<T>* node);
     void insert(Node<T>* &tree, T key);
     bool destoryTree(Node<T> *&tree);
     T searchMin(Node<T> *tree);
@@ -103,6 +109,8 @@ void STree<T>::insert(T key)
 {
     insert(root, key);
     total++;
+    if(thread)
+        inthreading();
 }
 
 template<class T>
@@ -180,7 +188,6 @@ void STree<T>::postorder(Node<T> *node)
     }
 }
 
-Recursive
 template<class T>
 void STree<T>::inorder(Node<T> *node)
 {
@@ -392,6 +399,38 @@ template<class T>
 Node<T> *STree<T>::searchFather(T key)
 {
     return searchFather(root, key);
+}
+
+template<class T>
+void STree<T>::inthreading(Node<T> *node)
+{
+    static Node<T>* lastNode = nullptr;
+    if(node != nullptr)
+    {
+        inthreading(node->left);
+        if (lastNode != nullptr)
+        {
+            if (node->left == nullptr)
+            {
+                node->ltag = false;
+                node->left = lastNode;
+            }
+            if (lastNode->right == nullptr)
+            {
+                lastNode->rtag = false;
+                lastNode->right = node;
+            }
+        }
+        lastNode = node;
+        inthreading(node->right);
+    }
+}
+
+template<class T>
+void STree<T>::inthreading()
+{
+    inthreading(root);
+    thread = true;
 }
 
 #endif //_SEARCHTREE_H_

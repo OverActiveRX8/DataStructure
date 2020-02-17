@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LinkList.dir/linkList.c.o"
-  "CMakeFiles/LinkList.dir/main.c.o"
-  "LinkList"
+  "CMakeFiles/LinkList.dir/linkList.c.obj"
+  "CMakeFiles/LinkList.dir/main.c.obj"
+  "LinkList.exe"
+  "LinkList.exe.manifest"
   "LinkList.pdb"
+  "libLinkList.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
